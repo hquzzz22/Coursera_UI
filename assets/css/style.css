@@ -1,6 +1,6 @@
 body,
 html {
-  font-family: "Poppins", sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
 
   box-sizing: border-box;
 }
@@ -16,10 +16,7 @@ html {
 }
 
 .logo {
-  font-size: 1.6rem;
-  font-weight: bold;
-  color: #2a55d9;
-  text-transform: lowercase;
+  max-width: 150px;
 }
 
 .mobile-menu {
@@ -42,8 +39,13 @@ html {
     flex-direction: column;
     justify-content: center;
   }
-  section {
-    padding: 0 60px;
+  .btn-time {
+    width: 100%;
+    margin-top: 20px;
+  }
+
+  .logo {
+    max-width: 100px;
   }
 }
 
@@ -77,4 +79,8 @@ html {
 
 .footer-social a {
   font-size: 30px;
+}
+
+.grid-border {
+  border-bottom: 1px solid #ddd;
 }
