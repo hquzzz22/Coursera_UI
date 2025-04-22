@@ -1,0 +1,66 @@
+body,
+html {
+  font-family: "Poppins", sans-serif;
+
+  box-sizing: border-box;
+}
+
+.sticky-header {
+  position: sticky;
+  top: 0;
+  z-index: 1020;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  height: 70px;
+}
+
+.logo {
+  font-size: 1.6rem;
+  font-weight: bold;
+  color: #2a55d9;
+  text-transform: lowercase;
+}
+
+.mobile-menu {
+  display: none;
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 1rem;
+}
+
+.mobile-menu.show {
+  display: block;
+}
+
+/* Tùy chọn: làm modal đẹp hơn ở mobile */
+@media (max-width: 576px) {
+  .modal-content {
+    border-radius: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+}
+
+.skill-link {
+  text-decoration: none;
+  padding: 6px 12px;
+  background-color: #f8f9fa;
+  color: #212529;
+  border: 1px solid #dee2e6;
+  border-radius: 20px;
+  font-size: 14px;
+  transition: all 0.2s;
+  display: inline-block;
+}
+
+.skill-link:hover {
+  background-color: #e2e6ea;
+  color: #000;
+  text-decoration: none;
+}
+
+.skill-link:active {
+  background-color: #d6d8db;
+}
