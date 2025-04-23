@@ -49,6 +49,21 @@ html {
   }
 }
 
+.btn-time {
+  background-color: #0056d2;
+  display: block;
+  font-weight: 700;
+  font-size: 13px;
+  width: 200px;
+  color: #fff;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 5px;
+}
+.bg-body-banner {
+  background-color: #f2f6fd;
+}
+
 .skill-link {
   text-decoration: none;
   padding: 6px 12px;
